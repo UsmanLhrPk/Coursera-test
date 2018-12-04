@@ -24,33 +24,33 @@
 
 		}
 
-		div#container1 {
+		section#container1 {
 			background-color: #d0d0d0;
 			background-image: url("Chicken.jpg");
 			background-repeat: round;
 			background-blend-mode: lighten;
 			position: relative; 
-			border: 3px solid black;
+			border: 3px solid red;
 			top: 60px;
 		}
 
-		div#container2 {
+		section#container2 {
 			background-color: #d0d0d0;
 			background-image: url("Beef.jpg");
 			background-blend-mode: lighten;
 			background-repeat: round;
 			position: relative; 
-			border: 3px solid black;
+			border: 3px solid green;
 			top: 60px;
 		}
 
-		div#container3 {
+		section#container3 {
 			background-color: #d0d0d0;
 			background-image: url("Sushi.jpg");
 			background-blend-mode: lighten;
 			background-repeat: round;
 			position: relative; 
-			border: 3px solid black;
+			border: 3px solid blue;
 			top: 60px;
 		}
 
@@ -59,8 +59,8 @@
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid black;
-			border-bottom: 3px solid black;
+			border-left: 3px solid red;
+			border-bottom: 3px solid red;
 			position: relative;
 			float: right;
 			margin-top: 0px;
@@ -75,8 +75,8 @@
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid black;
-			border-bottom: 3px solid black;
+			border-left: 3px solid green;
+			border-bottom: 3px solid green;
 			position: relative;
 			float: right;
 			margin-top: 0px;
@@ -91,8 +91,8 @@
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid black;
-			border-bottom: 3px solid black;
+			border-left: 3px solid blue;
+			border-bottom: 3px solid blue;
 			position: relative;
 			float: right;
 			margin-top: 0px;
