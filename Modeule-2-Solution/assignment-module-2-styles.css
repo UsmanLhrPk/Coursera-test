@@ -1,0 +1,176 @@
+/************* Base Styles *************/	
+		* {
+			box-sizing: border-box;
+		}
+
+		h1 {
+			color: white;
+			text-align:  center;
+			vertical-align: middle;
+			border: 2px white;
+			font-family: bookman sans;
+			font-weight: bolder;
+			background-image: url("assignment-module-2-header-1-image.jpg");
+			margin-top: 0px;
+			margin-bottom: 15px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p {
+			font-family: Helvetica;
+			color: black;
+			font-weight: bold;
+
+		}
+
+		div#container1 {
+			background-color: #d0d0d0;
+			background-image: url("Chicken.jpg");
+			background-repeat: round;
+			background-blend-mode: lighten;
+			position: relative; 
+			border: 3px solid black;
+			top: 60px;
+		}
+
+		div#container2 {
+			background-color: #d0d0d0;
+			background-image: url("Beef.jpg");
+			background-blend-mode: lighten;
+			background-repeat: round;
+			position: relative; 
+			border: 3px solid black;
+			top: 60px;
+		}
+
+		div#container3 {
+			background-color: #d0d0d0;
+			background-image: url("Sushi.jpg");
+			background-blend-mode: lighten;
+			background-repeat: round;
+			position: relative; 
+			border: 3px solid black;
+			top: 60px;
+		}
+
+		#p1 {
+			background-color: pink;
+			width: 40%;
+			height: 37px;
+			line-height: 35px;
+			border-left: 3px solid black;
+			border-bottom: 3px solid black;
+			position: relative;
+			float: right;
+			margin-top: 0px;
+			font-family: Calibri;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 25px;
+		}
+		
+		#p3 {
+			background-color: #c14543;
+			width: 40%;
+			height: 37px;
+			line-height: 35px;
+			border-left: 3px solid black;
+			border-bottom: 3px solid black;
+			position: relative;
+			float: right;
+			margin-top: 0px;
+			font-family: Calibri;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 25px;
+		}
+
+		#p4 {
+			background-color: #e5d198;
+			width: 40%;
+			height: 37px;
+			line-height: 35px;
+			border-left: 3px solid black;
+			border-bottom: 3px solid black;
+			position: relative;
+			float: right;
+			margin-top: 0px;
+			font-family: Calibri;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 25px;
+		} 
+		#p2 {
+			background-color: none;
+			clear: both;
+			border: none;
+			text-align: center;
+			text-align: justify;
+			padding: 10px;
+		}
+
+
+/********** Large Devices Only **********/
+
+@media (min-width: 992px) {
+	.col-lg-4, .col-lg-12 {
+		float: left;
+	}
+
+		.col-lg-4 {
+		width: 30%;
+		margin: 1.66666666666%;
+	}
+
+		.col-lg-12 {
+		width: 90%;
+		margin: 10%;
+	}
+
+	h1 {
+		font-size: 100px;
+		height: 120px;
+	}
+}
+
+/********* Medium Devices Only *********/
+
+@media (max-width: 991px) {
+	@media (min-width: 768px) {
+		.col-md-6, .col-md-12 {
+			float: left;
+		}
+
+			.col-md-6 {
+			width: 45%;
+			margin: 2.5%;
+		}
+
+			.col-md-12 {
+			width: 95%;
+			margin: 2.5%;
+		}
+
+		h1 {
+			font-size: 75px;
+			height: 90px;
+		}
+	}
+} 
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+	}
+
+		.col-sm-12 {
+		width: 95%;
+		margin: 2.5%;
+	}
+
+	h1 {
+		font-size: 50px;
+		height: 60px;
+	}
+} 
