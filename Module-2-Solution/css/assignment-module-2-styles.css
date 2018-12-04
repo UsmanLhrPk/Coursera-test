@@ -8,9 +8,9 @@
 			text-align:  center;
 			vertical-align: middle;
 			border: 2px white;
-			font-family: bookman sans;
+			font-family: Palatino Linotype;
 			font-weight: bolder;
-			background-image: url("C:\\Users\\HAIER\\Coursera-test\\Module-2-Solution\\images\\assignment-module-2-header-1-image.jpg");
+			background-color: #ff8000;
 			margin-top: 0px;
 			margin-bottom: 15px;
 			margin-left: auto;
@@ -25,42 +25,35 @@
 		}
 
 		section#container1 {
-			background-color: #d0d0d0;
-			background-image: url("C:\\Users\\HAIER\\Coursera-test\\Module-2-Solution\\images\\Chicken.jpg");
-			background-repeat: round;
-			background-blend-mode: lighten;
+			background-color: #fcfa09;
 			position: relative; 
-			border: 3px solid red;
+			border: 3px solid #e02418; 
 			top: 60px;
 		}
 
 		section#container2 {
-			background-color: #d0d0d0;
-			background-image: url("C:\\Users\\HAIER\\Coursera-test\\Module-2-Solution\\images\\Beef.jpg");
-			background-blend-mode: lighten;
+			background-color: white;
 			background-repeat: round;
 			position: relative; 
-			border: 3px solid green;
+			border: 3px solid #009942;
 			top: 60px;
 		}
 
 		section#container3 {
-			background-color: #d0d0d0;
-			background-image: url("C:\\Users\\HAIER\\Coursera-test\\Module-2-Solution\\images\\Sushi.jpg");
-			background-blend-mode: lighten;
+			background-color: #241a7a;
 			background-repeat: round;
 			position: relative; 
-			border: 3px solid blue;
+			border: 3px solid #fffc06;
 			top: 60px;
 		}
 
-		#p1 {
-			background-color: pink;
+		#h11 {
+			background-color: #e02418;
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid red;
-			border-bottom: 3px solid red;
+			border-left: 3px solid #e02418;
+			border-bottom: 3px solid #e02418;
 			position: relative;
 			float: right;
 			margin-top: 0px;
@@ -68,15 +61,16 @@
 			vertical-align: middle;
 			text-align: center;
 			font-size: 25px;
+			color: #fcfa09;
 		}
 		
-		#p3 {
-			background-color: #c14543;
+		#h12 {
+			background-color: #009942;
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid green;
-			border-bottom: 3px solid green;
+			border-left: 3px solid #009942;
+			border-bottom: 3px solid #009942;
 			position: relative;
 			float: right;
 			margin-top: 0px;
@@ -84,15 +78,16 @@
 			vertical-align: middle;
 			text-align: center;
 			font-size: 25px;
+			color: white;
 		}
 
-		#p4 {
-			background-color: #e5d198;
+		#h13 {
+			background-color: #fffc06;
 			width: 40%;
 			height: 37px;
 			line-height: 35px;
-			border-left: 3px solid blue;
-			border-bottom: 3px solid blue;
+			border-left: 3px solid #fffc06;
+			border-bottom: 3px solid #fffc06;
 			position: relative;
 			float: right;
 			margin-top: 0px;
@@ -100,13 +95,38 @@
 			vertical-align: middle;
 			text-align: center;
 			font-size: 25px;
+			color: #241a7a;
 		} 
-		#p2 {
+		#p21 {
 			background-color: none;
 			clear: both;
 			border: none;
 			text-align: center;
 			text-align: justify;
+			color: #e02418;
+			font-weight: bolder;
+			padding: 10px;
+		}
+
+		#p22 {
+			background-color: none;
+			clear: both;
+			border: none;
+			text-align: center;
+			text-align: justify;
+			color: green;
+			font-weight: bolder;
+			padding: 10px;
+		}
+
+		#p23 {
+			background-color: none;
+			clear: both;
+			border: none;
+			text-align: center;
+			text-align: justify;
+			color: yellow;
+			font-weight: bolder;
 			padding: 10px;
 		}
 
@@ -129,8 +149,9 @@
 	}
 
 	h1 {
-		font-size: 100px;
-		height: 120px;
+		font-size: 90px;
+		height: 108px;
+		line-height: 108px;
 	}
 }
 
@@ -155,6 +176,7 @@
 		h1 {
 			font-size: 75px;
 			height: 90px;
+			line-height: 90px;
 		}
 	}
 } 
@@ -172,5 +194,6 @@
 	h1 {
 		font-size: 50px;
 		height: 60px;
+		line-height: 60px;
 	}
 } 
