@@ -1,0 +1,9 @@
+p {
+	font-size: 150%;
+	color: magenta;
+	background-image: url("D:\\HTML5 JS 5 and CSS 3 Course\\origin.jpg");
+	text-decoration-color: white;
+}
+body {
+	background-repeat: no-repeat;
+}

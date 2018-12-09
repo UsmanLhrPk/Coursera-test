@@ -1,0 +1,218 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(67 58 106);
+  font-family: 'Oxygen', sans-serif;
+  text-align: justify;
+}
+
+/** HEADER **/
+.navbar {
+  margin-bottom: 0;
+}
+
+#header-nav {
+  background-color: rgb(241 156 51);
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  /* background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0; */
+}
+
+.navbar-brand {
+  padding-top: 17px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: rgb(23 77 154);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand, .navbar-brand {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#collapsable-nav {
+  width: 100%;
+  border-top: 1px solid #000
+}
+#nav-list {
+  margin-top: 0px;
+}
+
+#nav-list li.menu-chicken a {
+  color: rgb(55 148 88);
+  text-align: center;
+}
+
+#nav-list li.menu-beef a {
+  color: rgb(55 140 105);
+  text-align: center;
+}
+
+#nav-list li.menu-sushi a {
+  color: rgb(23 77 153);
+  text-align: center;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+  vertical-align: middle;
+}
+
+.nav>li>a:hover{
+  background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav {
+  background-color: #fff;
+}
+
+/* END HEADER *
+
+/* HOME PAGE */
+
+#main-content.container {
+  width: 100%;
+  padding-right:25px;
+  padding-left: 25px;
+}
+
+
+.menu-chicken {
+  background-color: rgb(187 26 34);
+}
+
+.menu-beef {
+  background-color: rgb(224 69 46);
+
+}
+
+.menu-sushi {
+  background-color: rgb(228 96 43);
+}
+
+.menu-chicken p, .menu-beef p, .menu-sushi p {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.menu-chicken h3, .menu-beef h3, .menu-sushi h3{
+  background-color: #000;
+  line-height: 1.5;
+  opacity: 0.7;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+.sec-chicken, .sec-beef, .sec-sushi {
+  margin-bottom: 20px;
+}
+
+
+/************ Large Devices Only ************/
+@media (min-width: 1200px) {
+}
+
+/************ Medium Devices Only ************/
+@media (min-width: 992px) {
+ @media (max-width: 1199px) {
+    /*Header
+    #logo-img {
+      background: url("images/restaurant-logo_medium.png") no-repeat;
+      width: 100px;  
+      height: 100px;
+      margin: 5px 5px 5px 0;
+    }*/
+  }
+}
+
+
+/************ Small Devices Only ************/
+@media (min-width: 768px) {
+  @media (max-width: 992px) {
+    /*Header*/
+    h1 {
+      font-size: 5em;
+    }
+  }
+}
+
+/********* Extra Small Devices Only *********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1{
+      padding-top: 10px;
+      font-size: 6vw; 
+    }
+    .navbar-brand p {
+      font-size: 0.6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img {
+      height: 20px;
+    }
+
+    #collapsable-nav a {
+      font-size: 1.2em;
+    }
+
+    #collapsable-nav a span {
+      font-size: 1em;
+      margin-right: 5px;
+    }
+}
+
+/**** Extra Extra Small Device Only ****/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 10vw;
+  }
+  /* End Header */
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
