@@ -7,6 +7,14 @@ body {
 }
 
 /** HEADER **/
+#header-nav .container {
+  margin-left: 25px;
+}
+
+.navbar-header a:hover {
+  text-decoration: none;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -138,6 +146,15 @@ body {
 
 .sec-chicken, .sec-beef, .sec-sushi {
   margin-bottom: 20px;
+}
+
+a.toTop {
+  margin-left: 5px;
+}
+
+a.toTop:hover {
+  text-decoration: none;
+  background-color: #e7e7e7;
 }
 
 
