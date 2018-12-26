@@ -1,0 +1,29 @@
+body {
+	background-color: red;
+	color: black;
+	font-size: 2em;
+}
+
+h1 {
+ 	text-align: center;
+ 	font-family: Avial;
+ 	font-size: 3em;
+ 	color: blue;
+ 	background-color: lightpink;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	color:darkgreen ;
+	background-color:brown;
+}
+
+p {
+	color:white;
+	background-color:3 ;
+}
+
+li {
+	color:violet;
+}
